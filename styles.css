@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --google-blue: #4285F4;
+    --google-red: #EA4335;
+    --google-yellow: #FBBC04;
+    --google-green: #34A853;
+}
+
+.bg-google-blue {
+    background-color: var(--google-blue);
+}
+
+.bg-google-red {
+    background-color: var(--google-red);
+}
+
+.bg-google-yellow {
+    background-color: var(--google-yellow);
+}
+
+.bg-google-green {
+    background-color: var(--google-green);
+}
+
+.focus\:ring-google-blue:focus {
+    --tw-ring-color: var(--google-blue);
+}

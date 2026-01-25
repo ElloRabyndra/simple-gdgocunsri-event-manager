@@ -1,5 +1,19 @@
 // Event data storage
-let events = [];
+let events = [{
+text: "Workshop: Introduction to Git & GitHub",
+category: "workshop",
+completed: false
+},
+{
+text: "Study Group: Web Development Fundamentals",
+category: "study-group",
+completed: false
+},
+{
+text: "GDGoC Weekly Meeting",
+ category: "meeting",
+completed: true
+}];
 
 // Color palette for event indicators
 const colors = ["google-blue", "google-red", "google-yellow", "google-green"];
